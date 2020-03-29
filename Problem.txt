@@ -25,7 +25,7 @@ Test set 2
 Sample
 
 Input
- 
+
 
 3
 4 100
