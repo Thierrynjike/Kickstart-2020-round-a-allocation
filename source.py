@@ -1,9 +1,9 @@
-N = int(input())
-out = []
+N = int(input())  #the length oh the list
+out = [] # the output list
 for i in range(N):
     n, b = list(map(int, input().split()))
     v = list(map(int, input().split()))
-    v.sort()
+    v.sort()  #we sort the list to get the cheaper before
     j, k = 0, 0
     while (j < len(v)):
         if (b - v[j] < 0):
